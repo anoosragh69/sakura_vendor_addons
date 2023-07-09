@@ -43,3 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/addons/prebuilt/product/etc/sysconfig/pixel_2018_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2018_exclusive.xml \
     vendor/addons/prebuilt/product/etc/sysconfig/pixel_experience_2017.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2017.xml \
     vendor/addons/prebuilt/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2018.xml
+
+# Prebuilt packages
+PRODUCT_PACKAGES += \
+    Auxio \
+    ViaBrowser
