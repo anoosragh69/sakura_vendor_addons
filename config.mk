@@ -24,6 +24,13 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 #PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay/fod-icons
 #endif
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden \
+    GesturalNavigationOverlayHiddenNarrow
+
 #nexus/pixel sysconfigs
 PRODUCT_COPY_FILES += \
     vendor/addons/prebuilt/product/etc/sysconfig/dialer_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/dialer_experience.xml \
