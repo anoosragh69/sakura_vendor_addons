@@ -46,5 +46,4 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
-    Auxio \
     ViaBrowser
