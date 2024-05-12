@@ -46,4 +46,9 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
+    ViMusic \
     ViaBrowser
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
