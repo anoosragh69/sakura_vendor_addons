@@ -24,6 +24,17 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 #PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay/fod-icons
 #endif
 
+# Clocks
+PRODUCT_PACKAGES += \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Flex \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather
+
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
